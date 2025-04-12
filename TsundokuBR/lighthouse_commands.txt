@@ -1,0 +1,10 @@
+lighthouse http://localhost:3000/ --output html --output-path ./report-home.html
+lighthouse http://localhost:3000/createaccount --output html --output-path ./report-createaccount.html
+lighthouse http://localhost:3000/dashboard --output html --output-path ./report-dashboard.html
+lighthouse http://localhost:3000/readinglevel --output html --output-path ./report-readinglevel.html
+lighthouse http://localhost:3000/timebubbleframe --output html --output-path ./report-timebubbleframe.html
+lighthouse http://localhost:3000/tbrshelf --output html --output-path ./report-tbrshelf.html
+lighthouse http://localhost:3000/readshelf --output html --output-path ./report-readshelf.html
+lighthouse http://localhost:3000/booksetup --output html --output-path ./report-booksetup.html
+lighthouse http://localhost:3000/searchcomponent --output html --output-path ./report-searchcomponent.html
+lighthouse http://localhost:3000/bookselectionwheel --output html --output-path ./report-bookselectionwheel.html

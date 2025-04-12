@@ -1,0 +1,30 @@
+/*contains the book cover of the readers current read*/
+.current-read-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/*renders the book cover of the readers current book*/
+.current-read-cover {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  justify-content: center;
+  box-shadow: 2px 4px 4px #292421
+}
+  
+/*renders the individual users' account information*/
+.book-info {
+  width: 350px;
+  background-color: #BAB58C;
+  color: #292421;
+  font-family: Verdana;
+  text-align: center;
+  text-shadow: none;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px #292421;
+  max-width: 350px;
+  }

@@ -1,0 +1,84 @@
+/*displays the grouped buttons of different levels together*/
+.group-buttonv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+/*renders the appearance of the buttons containing the levels*/
+.buttonv {
+  text-decoration: none;
+  background-color: #E9D7C0;
+  color: #292421;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-shadow: none;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 2px 4px 4px #292421;
+  border: none;
+}
+
+/*renders the appearance of the buttons containing the levels on hover*/
+.buttonv:hover {
+  background-color: #f0f0f05f;
+}
+
+/*renders the info that displays reading level information*/
+.info-box {
+  width: 350px;
+  background-color: #BAB58C;
+  color: #292421;
+  font-family: Verdana;
+  text-align: center;
+  text-shadow: none;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 4px #292421;
+  font-family: Verdana;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+/*renders the style of the level header*/
+.level-header {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  color: #292421;
+}
+
+/*renders the style of the infor button*/
+.info-button {
+  background-color: #3D3833;
+  box-shadow: none;
+  color: #E9D7C0;
+  border: none;
+  border-radius: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*renders the button colour on the info button on hover*/
+.info-button:hover {
+  background-color: #292421;
+}

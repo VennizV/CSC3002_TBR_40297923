@@ -1,0 +1,122 @@
+/*displays all the books and their info togther*/
+.results-container {
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #f0f0f05f;
+}
+
+/*displays each individual book and their info together*/
+.book-container {
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 2px 4px 4px #292421;
+    justify-content: center;
+}
+
+/*renders the individual book container on hover*/
+.book-container:hover {
+    transform: scale(1.05);
+}
+
+/*displays and renders the book cover*/
+.book-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+/*renders the book title, publish date and author*/
+.book-container h3 {
+    margin: 10px 0;
+    text-decoration: none;
+    text-align: left;
+    color: #292421;
+    font-family: Verdana;
+    font-weight: bold;
+    text-shadow: none;
+    font-size: 1.2em;
+}
+
+/*renders the book description*/
+.book-container p {
+    margin: 5px 0;
+    text-decoration: none;
+    text-align: left;
+    color: #292421;
+    font-family: Verdana;
+    font-weight: 450;
+    text-shadow: none;
+}
+
+/*renders the dropdown for title or author search*/
+.custom-dropdown {
+    width: 25%;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #292421;
+    background-color: #E9D7C0;
+    color: #292421;
+    font-family: Verdana;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 2px 4px 4px #292421;
+}
+
+/*renders the dropdown on hover*/
+.custom-dropdown:hover {
+    transform: scale(1.02); /* Slight hover effect for interactivity */
+}
+
+/*renders the search button*/
+.search-button {
+    text-decoration: none;
+    background-color: #3C2415;
+    color: #E9D7C0;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-shadow: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 4px 4px #292421;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/*renders the search button on hover*/
+.search-button:hover {
+    transform: scale(1.05);
+}
+
+/*displays the search imput*/
+.search-input {
+    width: 80%; 
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 15px;
+    background-color: #E9D7C0;
+    border-radius: 8px;
+    border: 1px solid #292421;
+    font-family: Verdana;
+    font-size: 1em;
+    color: #292421;
+    box-shadow: 2px 4px 4px #292421;
+}
+
+/*renders the search imput text*/
+.search-input::placeholder {
+    color: #a0a0a0;
+    font-style: italic;
+    text-align: start;
+}

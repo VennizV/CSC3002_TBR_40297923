@@ -1,0 +1,51 @@
+/*displays 4 book covers in a row*/
+.book-cover-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+    padding: 10px;
+    justify-items: center; 
+}
+
+/*contains the displays of all the rows of book covers*/
+.book-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    background-color: transparent !important;
+    box-shadow: none !important;    
+}
+
+/*renders each individual book cover*/
+.book-cover {
+    width: 200px; 
+    height: 250px; 
+    object-fit: cover; 
+    box-shadow: 2px 4px 4px #292421;
+    transition: transform 0.2s; 
+    border: none;
+}
+
+/*renders the book cover scale when hovered*/
+.book-cover:hover {
+    transform: scale(0.8);
+}
+
+/*renders the buttom to add book to shelf*/
+.tbr-button {
+    margin-top: 10px;
+    background-color: #757A52;
+    font-family: Verdana;
+    width: 250px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 2px 4px 4px #292421;
+}

@@ -1,0 +1,82 @@
+/*renders the login titles*/
+label {
+    display: block;
+    margin-top: 10px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+/*renders the input box for user login*/
+input {
+    margin: 5px 0;
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: large;
+    font-family: Verdana;
+    font-weight: bold;
+    text-shadow: none;
+    background-color: #E9D7C0;
+    border: 1px solid #292421;
+    color: #292421;
+    box-shadow: 2px 4px 4px #292421;
+}
+
+/*displays the buttons for the login/create account page*/
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*renders the buttons for the login/create account page*/
+button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3C2415;
+    color: #E9D7C0;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-shadow: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    text-align: center;
+    box-shadow: 2px 4px 4px #292421;
+    border: none;
+}
+
+/*renders the buttons on hover*/
+button:hover {
+    background-color: #f0f0f05f;
+}
+
+/*renders the navigation buttons to the dashboard page*/
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3D3833;
+    color: #E9D7C0;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-shadow: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 4px 4px #292421;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*renders the buttons on hover*/
+.button:hover {
+    background-color: #f0f0f05f;
+}

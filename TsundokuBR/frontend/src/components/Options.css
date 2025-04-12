@@ -1,0 +1,79 @@
+/*displays the wheel*/
+.wheel-container {
+  display: inline-block;
+  position: relative;
+}
+
+/*renders the wheel size*/
+#wheel {
+  display: block;
+  margin-top: 40px;
+  width: 450px;
+  height: 450px;
+}
+
+/*renders the wheel spin button*/
+#spin {
+  font-family: Verdana;
+  font-weight: bold;
+  color: #292421;
+  user-select: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 50px;
+  font-size: 14px;
+  transform: translate(-50%, -50%);
+  background: #E9D7C0;
+  box-shadow:  none;
+  border-radius: 100%;
+  border: 3px solid #E9D7C0;
+  transition: 0.8s;
+}
+
+/*renders the wheel spin button after it has spun*/
+#spin::after {
+  content: '';
+  position: absolute;
+  top: -13px;
+  border: 8px solid transparent;
+  border-bottom-color: currentColor;
+  border-top: none;
+  color: #E9D7C0;
+}
+
+/*displays the rendered book selection info*/
+.popup {
+  background-color: #E9D7C0;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: none;
+  box-shadow: 2px 4px 4px #292421;
+}
+
+/*displays the info button*/
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*renders the info button on hover*/
+.button:hover {
+  background-color: #f0f0f05f;
+}

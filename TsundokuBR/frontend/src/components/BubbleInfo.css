@@ -1,0 +1,43 @@
+/*renders the info display on the time bubble page*/
+.BubbleInfo {
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+    text-shadow: none;
+    background-color: #BAB58C;
+    box-shadow: 2px 4px 4px #292421;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+/*displays the grouped buttons for the time bubble buttons*/
+.button-grouph {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+/*renders the buttons on the time bubble frame page*/
+.bubble-buttonh {
+  text-decoration: none;
+  background-color: #E9D7C0;
+  color: #292421;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-shadow: none;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 2px 4px 4px #292421;
+  border: none;
+  }
+  
+/*renders the hover effect for the buttons on the time bubble frame page*/
+.bubble-buttonh:hover {
+    background-color: #0000005f;
+  }
